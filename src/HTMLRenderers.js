@@ -164,7 +164,7 @@ export function ul(htmlAttribs, children, convertedCSSStyles, passProps = {}) {
       return (
         <View
           key={`list-${nodeIndex}-${index}-${key}`}
-          style={{ flexDirection: "row", marginBottom: 10 }}
+          style={{ flexDirection: "row", marginBottom: 0 }}
         >
           {prefix}
           <View style={{ flex: 1 }}>{child}</View>
