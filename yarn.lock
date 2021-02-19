@@ -2535,6 +2535,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bpetrified-rn-html-render@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "bpetrified-rn-html-render@workspace:."
+  dependencies:
+    "@babel/cli": ^7.12.8
+    "@babel/core": ^7.12.9
+    "@babel/runtime": ^7.12.5
+    "@react-native-community/eslint-config": ^2.0.0
+    "@types/react": ^17.0.0
+    "@types/react-native": ^0.63.37
+    babel-eslint: 10.1.0
+    babel-jest: ^25.5.1
+    conditional-type-checks: ^1.0.5
+    deprecated-prop-type: ^1.0.0
+    dtslint: ^2.0.6
+    eslint: ^7.14.0
+    eslint-config-prettier: ^6.15.0
+    eslint-plugin-react: ^7.21.5
+    htmlparser2: 5.0.1
+    jest: ^25.5.4
+    metro-react-native-babel-preset: ^0.64.0
+    prettier: ^2.2.1
+    prop-types: ^15.7.2
+    react: ^16.13.1
+    react-native: ^0.63.4
+    react-native-testing-library: ^2.2.0
+    react-native-webview: ^11.0.0
+    react-test-renderer: 16.13.1
+    stringify-entities: ^3.1.0
+    typescript: ^3.9.7
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  languageName: unknown
+  linkType: soft
+
 "bplist-creator@npm:0.0.8":
   version: 0.0.8
   resolution: "bplist-creator@npm:0.0.8"
@@ -7975,42 +8011,6 @@ fsevents@~2.1.2:
   checksum: 5a83dfc78e7adcb93d632bf367b0733db650e3abd2e9c57c33b87e50d201212c1884b0d7bcf13e692f1556189fa1b87f9f3e0ba10fe858fd6aebe83ed4fcd1ea
   languageName: node
   linkType: hard
-
-"react-native-render-html@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-native-render-html@workspace:."
-  dependencies:
-    "@babel/cli": ^7.12.8
-    "@babel/core": ^7.12.9
-    "@babel/runtime": ^7.12.5
-    "@react-native-community/eslint-config": ^2.0.0
-    "@types/react": ^17.0.0
-    "@types/react-native": ^0.63.37
-    babel-eslint: 10.1.0
-    babel-jest: ^25.5.1
-    conditional-type-checks: ^1.0.5
-    deprecated-prop-type: ^1.0.0
-    dtslint: ^2.0.6
-    eslint: ^7.14.0
-    eslint-config-prettier: ^6.15.0
-    eslint-plugin-react: ^7.21.5
-    htmlparser2: 5.0.1
-    jest: ^25.5.4
-    metro-react-native-babel-preset: ^0.64.0
-    prettier: ^2.2.1
-    prop-types: ^15.7.2
-    react: ^16.13.1
-    react-native: ^0.63.4
-    react-native-testing-library: ^2.2.0
-    react-native-webview: ^11.0.0
-    react-test-renderer: 16.13.1
-    stringify-entities: ^3.1.0
-    typescript: ^3.9.7
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  languageName: unknown
-  linkType: soft
 
 "react-native-testing-library@npm:^2.2.0":
   version: 2.2.0
